@@ -2,6 +2,8 @@ import express from "express";
 import connect from "./schmas/index.js";
 import todosRouter from "./routes/todos.router.js";
 
+// 수정본 일부러 만들기 프리티어때문에 수정이 안되용
+
 const app = express();
 const PORT = 3000;
 

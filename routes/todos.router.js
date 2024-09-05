@@ -2,6 +2,8 @@ import express from "express";
 import Todo from "../schmas/todo.schema.js";
 import joi from "joi";
 
+// 수정본 일부러 만들기 프리티어때문에 수정이 안되용
+
 const router = express.Router();
 
 // joi - 할 일 변경 로직
